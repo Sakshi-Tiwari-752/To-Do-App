@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    /* background-color: rgb(128, 136, 229); */
+    background-image: url("note-image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   }
+  
+
+.btn {
+    width: 5em;
+    height: 3.5ex;
+    padding: 2px;
+    /* width: 10%;
+    height:40PX; */
+    background: #d9d9d9;
+    text-align: center;
+    color: rgb(34, 31, 33);
+    float: right;
+    transition: 0.5s;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 550px;
+    border-radius: 13px;
+    border:2px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: rgb(243, 181, 106);
+  }
+
+  
+  #input{
+    border-radius: 2px;
+    width:30%;
+    height:20%;
+    padding:10px;
+    border-radius: 13px;
+    margin-left: 350px;
+    font-size: 20px;
+    font-weight: bold;
+    /* background: rgb(254, 214, 166); */
+
+  }
+
+  #input:hover{
+    background: rgb(243, 181, 106);
+  }
+
+
+  .heading{
+    text-align:center;
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: 45px;
+ }
+
+  .header {
+    background-color:rgb(8, 55, 84);
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    text-decoration: dotted;
+  }
+
+  #list{
+    text-align: left;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    cursor: pointer;
+    font-family: cursive;
+    color: rgb(1, 1, 7);
+  }
